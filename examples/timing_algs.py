@@ -28,5 +28,5 @@ if do_large:
                 print(f'{str(k):>30} {dim:4}: {mean_err:.3e}, {mean_dt:.5f}')
     # Save
     import pickle
-    with open('timings_large.pkl', 'wb') as f:
+    with open('results/timings_large.pkl', 'wb') as f:
         pickle.dump(res_large, f)

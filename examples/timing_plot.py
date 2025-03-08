@@ -11,7 +11,7 @@ symbols = ['o', 's', 'D', '^', 'v', '>', '<', 'p']
 # Load results
 import pickle
 # res_small = np.load('results_small.npz', allow_pickle=True)
-large_res = pickle.load(open('timings_large.pkl', 'rb'))
+large_res = pickle.load(open('results/timings_large.pkl', 'rb'))
 
 fig1, ax1 = plt.subplots(1, 1, figsize=(6, 4))
 fig2, ax2 = plt.subplots(1, 1, figsize=(6, 4))
